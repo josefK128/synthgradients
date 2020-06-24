@@ -1,0 +1,48 @@
+# gendata.py output
+Input: two concatenated binary values:
+[0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 1. 1. 1.]
+
+Output: binary value of their sum:
+[1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1.]
+
+
+
+# net3.py output
+Iter:99 Loss:898.69990619954842
+Iter:199 Loss:236.07805743615366
+Iter:299 Loss:31.745004452707413
+Iter:399 Loss:11.396645315628806
+Iter:499 Loss:6.7944290696864555
+Iter:599 Loss:4.4632332972152495
+Iter:699 Loss:3.3344494495092682
+Iter:799 Loss:2.6630083372655253
+Iter:899 Loss:2.2334338916649306
+Iter:999 Loss:1.9139240108054971
+
+
+
+# dni_sg.py output
+DNI init:
+input_dim = 24
+output_dim = 128
+alpha = 0.0001
+
+
+DNI init:
+input_dim = 128
+output_dim = 64
+alpha = 0.0001
+
+
+DNI init:
+input_dim = 64
+output_dim = 12
+alpha = 0.0001
+
+Iter:99 Loss:150.13629731263939
+Iter:199 Loss:131.42699328822636
+Iter:254 Loss:130.84154640197147dni_sg.py:30: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-x))
+Iter:299 Loss:137.16011836796628
+Iter:399 Loss:21.042128720397123
+Iter:482 Loss:0.0
